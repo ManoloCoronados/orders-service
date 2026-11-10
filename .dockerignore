@@ -1,0 +1,36 @@
+# Control de versiones
+.git
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Compilación local
+target/
+build/
+.mvn/
+
+# Logs y documentación
+*.md
+*.log
+logs/
+
+# CI y entorno local
+.github/
+docker-compose*.yml
+
+# Claves, certificados y variables de entorno locales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# Configuración local con posibles credenciales, en cualquier subcarpeta
+**/application-local.properties
